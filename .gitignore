@@ -17,6 +17,7 @@ public_html/hot
 
 storage/*.key
 .env
+.env.example
 Homestead.yaml
 Homestead.json
 /.vagrant
@@ -35,3 +36,5 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+scratch.*
