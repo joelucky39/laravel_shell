@@ -1,0 +1,84 @@
+$hero_height: 90vh;
+$hero_width: 100vw;
+$slogan_top: $hero_height / 2 - 10;
+
+.hero-contain{
+    position: relative;
+    overflow: hidden;
+    width: $hero_width;
+    height: $hero_height;
+    margin-top: $nav_height;
+    margin-bottom: 0px;
+    text-align: left;
+    background-color: #000000;
+}
+.hero-home-1, .hero-home-2, .hero-home-3, .hero-home-4{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: $hero_width;
+    height: $hero_height;
+    @include parallax();
+    @include throb();
+}
+.hero-home-1{
+    background-image: url("/../img/hero/hero_cain-min.jpg");
+}
+.hero-home-2{
+    background-image: url("/../img/hero/hero_formula-min.jpg");
+}
+.hero-home-3{
+    background-image: url("/../img/hero/hero_listen-min.jpg");
+}
+.hero-home-4{
+    background-image: url("/../img/hero/hero_whathaveyoudone-min.jpg");
+}
+.hero-home-mobile{
+    background-size: auto 100%;
+    background-position: center;
+    background-image: url("/../img/hero/hero_whathaveyoudone-min.jpg");
+}
+.slogan{
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    font-size: 2.3em;
+}
+.slogan-left{
+    position: absolute;
+    top: $slogan_top;
+    left: 20px;
+    text-align: left;
+    width: 35vw;
+}
+.slogan-right{
+    position: absolute;
+    top: $slogan_top;
+    right: 20px;
+    text-align: right;
+    width: 35vw;
+}
+.slogan-explain{
+    font-size: .5em;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.slogan-link{
+    color: white;
+    text-decoration: underline;
+}
+
+.slideshow {
+    position: relative;
+    height: $hero_height;
+}
+.slide {
+
+}
+
+.slide { display: none;}
+
+.mobile-hero{
+    width: $hero_width;
+    height: $hero_height;
+    display: none;
+}

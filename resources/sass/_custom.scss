@@ -1,0 +1,153 @@
+body{
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: $font-color;
+    overflow-x: hidden;
+    background-color: $off-white;
+}
+
+.red-text{
+    color: #cc0000;
+}
+
+.content-contain{
+    position: relative;
+    width: 80vw;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.content-contain p, .short-contain p{
+    text-align: left;
+}
+
+.short-contain{
+    position: relative;
+    width: 50vw;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-contain{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.made-in-america{
+    height: 75px;
+    width: 105px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background-image: url("/../img/made_in_america-min.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.suds{
+    background-image: url("/../img/backgrounds/suds-min.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+
+section{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 20px 0px;
+}
+.our-mission{
+    background-color: #000000;
+    color: $off-white;
+    margin: 0px;
+}
+.blue-text{
+    color: $honest-blue;
+}
+.sprite1{
+    background-image: url("/../img/sprite1-min.png");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 130px;
+    margin: 0px auto 20px auto;
+}
+.natural{
+    background-position: -300px 0px;
+}
+.paraben{
+    background-position: -150px 0px;
+}
+.vegan{
+    background-position: -620px 0px;
+}
+.sustainable{
+    background-position: -460px -170px;
+}
+.skin{
+    background-image: url("/../img/skin-min.png");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 130px;
+    margin: 0px auto 0px auto;
+}
+.normal-skin{
+    background-position: -250px -150px;
+}
+.dealOday{
+    background-color: white;
+    padding: 50px 0px;
+}
+.dealOday h1{
+    margin-bottom: 50px;
+}
+.productOday{
+    text-align: left;
+}
+
+.content-img-right{
+    float: right;
+    margin: 0px 20px 20px 20px;
+    border: 2px solid $font-color;
+}
+
+.content-img-left{
+    float: left;
+    margin: 0px 20px 20px 20px;
+    border: 2px solid $font-color;
+}
+
+.content-img-center{
+    margin: 0px;
+    max-width: 100%;
+    border: 2px solid $font-color;
+}
+
+.ingredient-img{
+    @include cover();
+    background-position: center;
+    max-height: 250px;
+    min-height: 200px;
+    border: 1px solid $font-color;
+}
+.ingredient-row{
+    margin-bottom: 50px;
+}
+.quote{
+    font-style: italic;
+    font-size: 1.4em;
+}
+.Fredericka{
+    font-family: 'Fredericka the Great', cursive;
+}

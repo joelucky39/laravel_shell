@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PostsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,11 @@ Route::get('/',[PagesController::class, 'index']);
 Route::get('/about', [PagesController::class, 'about']);
 Route::get('/services', [PagesController::class, 'services']);
 
+//Resource dynamically generates routes inside of a controller
+Route::resource('posts', PostsController::class);
+
+/*
 Route::get('/users/{id}/{name}', function($id,$name){
     return 'this is user '.$name.' with and id of '.$id;
 });
+*/

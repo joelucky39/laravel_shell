@@ -1,0 +1,28 @@
+// Fonts
+/*
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+ */
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap');
+
+// Variables
+@import 'variables';
+@import 'mixins';
+@import 'hero';
+@import 'headers';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+// nav css
+@import 'nav';
+
+// custom css
+@import 'custom';
+@import 'admin';
+
+// Media Queries
+@import 'media';

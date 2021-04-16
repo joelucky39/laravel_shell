@@ -1,0 +1,36 @@
+// Body
+//$body-bg: #f8fafc;
+$body-bg: #ffffff;
+
+// Typography
+/* $font-family-sans-serif: 'Nunito', sans-serif; */
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$honest-blue: #1a3fe0;
+$off-white: #f8fafc;
+$font-color: #464646;
+$grey: #eaeaea;
+
+/* Variables for Hero */
+$slider_speed: 20s; /* remember to update the javascript as well */
+$hero_switch: 14s;
+$text_speed: $slider_speed / 2;
+$window_height: 100vh; /* the height of the sliding window */
+$interior_window_height: 40vh;
+$text_height: 45vh; /* how high the text animates 0vh is all the way to the top 100vh is to not show at all */
+
+$nav_height: 86px;
+
+

@@ -1,0 +1,19 @@
+header{
+    width: 100%;
+    height: 40vh;
+    @include parallax();
+    @include throb();
+}
+
+.palm-oil{
+    background-image: url("/../img/headers/palm_oil-min.jpg");
+}
+
+.ingredients{
+    background-image: url("/../img/headers/ingredients-min.jpg");
+}
+
+.aboutUs{
+    background-image: url("/../img/headers/highlands-min.jpg");
+    background-position: bottom;
+}

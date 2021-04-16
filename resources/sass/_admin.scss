@@ -1,0 +1,35 @@
+.adminSection{
+    margin-top: 60px;
+    padding: 20px 0px 0px 0px;
+}
+.sideAdminNav{
+    background-color: black;
+    color: white;
+    padding: 50px 0px 50px 0px;
+    text-align: left;
+}
+.adminMainSection{
+    padding: 50px 0px;
+}
+.adminNav, .adminSubNav{
+    list-style: none;
+}
+.adminFormContain{
+    background-color: $grey;
+    width: 40%;
+    margin: 20px auto;
+    border: 1px solid $font-color;
+}
+.adminFormLeft{
+    text-align: right;
+}
+.adminFormRow{
+    margin: 5px 0px;
+}
+.adminFormRight{
+    text-align: left;
+}
+.adminFormField{
+    border: 1px solid $font-color;
+    min-width: 70%;
+}

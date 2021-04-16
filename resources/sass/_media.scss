@@ -1,0 +1,65 @@
+$mobile_hero_height: 70vh;
+$mobile_slogan_top: $mobile_hero_height / 2 - 10;
+@media screen and (max-width: 1340px) {
+    .nav-row .nav-list li a{
+        font-size: 1em;
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .hero-contain{
+        height: $mobile_hero_height;
+    }
+    .hero-home-1, .hero-home-2, .hero-home-3, .hero-home-4{
+        height: $mobile_hero_height;
+    }
+    .slogan{
+        font-size: 1.5em;
+    }
+    .slogan-left{
+        top: $mobile_slogan_top;
+    }
+    .slogan-right{
+        top: $mobile_slogan_top;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .nav-row .nav-list li a{
+        padding: 0px 5px;
+        font-size: .9em;
+    }
+    #desktop_nav{
+        text-align: right;
+    }
+    .content-contain{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .nav-row .nav-list{display: none;}
+    .mobile-hamburger{
+        display: inline;
+    }
+    .logo-section{
+        text-align: left;
+    }
+    .slideshow{display: none;}
+    .mobile-hero{display: block;}
+    .slogan-left{
+        width: 60vw;
+        top: 45vh;
+    }
+    .slogan-explain{
+        line-height: 1em;
+    }
+    .short-contain{
+        width: 80vw;
+    }
+    .made-in-america{
+        height: 50px;
+        width: 70px;
+    }
+}
