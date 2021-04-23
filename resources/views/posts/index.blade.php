@@ -4,10 +4,9 @@
     <h1>Posts</h1>
     @if(count($posts) > 0)
         @foreach($posts as $post)
-            <div class="well">
+            <div class="well well-lg">
                 <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
-                <section>{{$post->body}}</section>
-                <small>Written on {{$post->created_at}}</small>
+                <small>Written on {{$post->created_at}} By {{$post->user->name}}</small>
             </div>
         @endforeach
         <div class="pagination">
